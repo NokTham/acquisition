@@ -7,4 +7,4 @@
 #define _CONCAT(x,y)                      x##y
 #define CONCAT(x,y)                       _CONCAT(x,y)
 
-#define USER_AGENT                        STRINGIFY(CONCAT(CONCAT(Acquisition/, VER_FILEVERSION), (contact: @testpushpleaseignore on GitHub)))
+#define USER_AGENT                        Mozilla/5.0 Gecko/20100101
